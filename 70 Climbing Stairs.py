@@ -1,6 +1,6 @@
 class Solution:
     def climbStairs(self, n: int) -> int:
-        steps = [0 for x in range(46)]
+        steps = [0 for x in range(47)]
         steps[0] = 0
         steps[1] = 1
         steps[2] = 2
