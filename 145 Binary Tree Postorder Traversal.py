@@ -10,12 +10,11 @@ class TreeNode:
 class Solution:
     def helper(self, root, a):
         if(root is not None):
-            a.append(root.val)
             Solution.helper(self, root.left, a)
             Solution.helper(self, root.right, a)
+            a.append(root.val)
 
-
-    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         a = []
         Solution.helper(self, root, a)
         return a
@@ -34,5 +33,5 @@ def build(r, i=0):
 
 root = build(r)
 
-print(Solution.preorderTraversal(Solution, root))
+print(Solution.postorderTraversal(Solution, root))
 
