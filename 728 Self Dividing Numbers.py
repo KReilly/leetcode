@@ -16,9 +16,6 @@ class Solution:
                 m = m//10
             if(isDividing):
                 l.append(n)
-
-
-
         return l
     
 
