@@ -22,7 +22,7 @@ class Solution:
 
 ops = ["5","2","C","D","+"]
 ops = ["5","-2","4","C","D","9","+","+"]
-#ops = ["1","C"]
+ops = ["1","C"]
 
 
 print(Solution.calPoints(Solution, ops))
