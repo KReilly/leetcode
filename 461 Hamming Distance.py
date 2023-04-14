@@ -12,7 +12,7 @@ class Solution:
 x = 680142203
 y = 1111953568
 
-#x = 3
-#y = 1
+x = 3
+y = 1
 
 print(Solution.hammingDistance(Solution, x, y))
