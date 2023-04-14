@@ -1,7 +1,7 @@
 class Solution:
     def reverseBits(self, n: int) -> int:
         print(n)
-        s = str(bin(n))
+        s ='{0:032b}'.format(n)
         print(s)
         s = s[2:]
         print(s)
