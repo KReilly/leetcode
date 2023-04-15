@@ -3,7 +3,7 @@ class Solution:
         print(n)
         s ='{0:032b}'.format(n)
         print(s)
-        s = s[2:]
+        #s = s[2:]
         print(s)
         s = s[::-1]
         print(s)
