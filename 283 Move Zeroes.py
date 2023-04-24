@@ -4,11 +4,15 @@ class Solution:
         """
         Do not return anything, modify nums in-place instead.
         """
-        zcnt = 0
-        for n in nums:
-            if(n == 0):
-                zcnt +=1
-        
+        slow = 0
+
+        for fast in range(len(nums)):
+            if (nums[fast] != 0 and nums[slow] == 0):
+                nums[slow], nums[fast] = nums[fast], nums[slow]
+                if(nums[slow] !=0):
+                    slow += 1
+                 
+
 
 nums = [0,1,0,3,12]
 #nums = [0]
