@@ -3,13 +3,11 @@ class Solution:
         sum = 0
         product = 1
 
-        while(n > 1):
+        while(n > 0):
             r = n%10
             n = n//10
             sum +=r
             product *=r
-        
-
 
         return product - sum
 
