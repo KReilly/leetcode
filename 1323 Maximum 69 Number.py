@@ -9,8 +9,6 @@ class Solution:
                 hasChanged = True
             else:
                 r += c
-        print(r)
-
         return int(r)
 
 
