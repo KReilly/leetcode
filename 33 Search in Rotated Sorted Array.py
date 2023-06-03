@@ -65,8 +65,8 @@ nums = [4,5,6,7,0,1,2]
 target = 3
 nums = [1]
 target = 0
-nums = [3,5,1]
-target = 3
+# nums = [3,5,1]
+# target = 3
 
 
 print(Solution.search(Solution, nums, target))
