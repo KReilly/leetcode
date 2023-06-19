@@ -9,6 +9,7 @@ class Solution:
         # return m
         return max(s.count(" ") for s in sentences) + 1
 
-sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
+#sentences = ["alice and bob love leetcode", "i think so too", "this is great thanks very much"]
 
+sentences = [""]
 print(Solution.mostWordsFound(Solution, sentences))
