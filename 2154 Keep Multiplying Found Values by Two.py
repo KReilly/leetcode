@@ -7,7 +7,6 @@ class Solution:
         while(True):
             if(original in nums):
                 original *= 2
-                print(original)
             else:
                 return original
 
