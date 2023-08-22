@@ -1,6 +1,11 @@
 class Solution:
     def truncateSentence(self, s: str, k: int) -> str:
-        s = 
+        ss = s.split(" ")
+        sr = ""
+        for i in range(k):
+            sr += ss[i]
+        return sr
+
 
 
 s = "Hello how are you Contestant"
