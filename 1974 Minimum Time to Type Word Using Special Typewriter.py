@@ -6,7 +6,7 @@ class Solution:
             if(w == prev):
                 time+=1
             else:
-                time+=min(abs(ord(w)-ord(prev)), abs(ord(prev)-ord(w)))
+                time+=min(abs(ord(w)-ord(prev)), 26-abs(ord(w)-ord(prev)))+1
             prev = w
         return time
     
